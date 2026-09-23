@@ -1,0 +1,14 @@
+# API keys and secrets - never commit
+01_input/api_key.txt
+*.env
+.env
+*api_key*
+*_key.txt
+*secret*
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+
+# Raw API responses (Alpha Vantage data is not redistributable)
+02_output/raw_cache_*
